@@ -1,0 +1,154 @@
+body {
+    background-image: linear-gradient(rgb(123 36 36 / 50%), rgb(117 153 255 / 40%)), url("../Imagem/27035.jpg");
+   /*deixa a imagem do tamanho do site/resposiva*/ 
+    background-attachment: fixed;
+    background-size: cover;
+    /*Não repete a imagem*/ 
+    background-repeat: repeat;
+    /* Ajuda a deixar a imagem do tamanho do site*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+}
+
+header {
+    background-color: #d63939;
+}
+
+li {
+   box-sizing: border-box;
+   font-size: 20px;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    right: 100%;
+}
+
+header ul {
+    max-width: 1500px;
+    list-style: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+
+}
+
+header ul li a {
+    color: #FFF;
+    padding: 25px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+header ul li a:hover {
+    background-color: #ffffff;
+    color:#000;
+}
+
+
+p {
+    
+    box-sizing: border-box;
+    font-size: x-large;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    right: 100%;
+    width: 60%;
+    margin: auto;
+    box-sizing: border-box;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    color: white;
+
+
+    
+}
+
+.Títulos_grandes {
+
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    right: 100%;
+    color: white;
+    font-size: xx-large;
+    
+}
+
+.Segundo_título h2{
+
+    text-align: center;
+
+}
+
+.Imagem1 {
+
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.Imagem1 img {
+    width: 60%;
+    height: 60%;
+}
+
+#Vídeo {
+    width: fit-content;
+    margin: auto;
+
+}
+
+.Imagem2 {
+    width: 10px;
+    margin: 10px;
+    left: 150px;
+    bottom: 600px;
+    position: relative;
+    text-align: center;
+}
+
+
+.Citação {
+
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+table {
+    margin: auto;
+}
+
+table#alter tr td { /* Toda a tabela com fundo creme */
+	background: #B73937;
+	} 
+
+table#alter tr.dif td {
+	background: #8A2B29; /* Linhas com fundo cinza */
+	}
+
+table#alter tr.título th{
+    background: #3D2525;
+}
+
+ol {
+    margin: auto;
+    width: 25%;
+    left: 150px;
+    position: relative;
+}
